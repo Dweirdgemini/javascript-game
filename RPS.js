@@ -32,7 +32,9 @@ function generateComputerChoice() {
 	computerChoiceDisplay.innerHTML = computerChoice
 }
 
-
+function getResult() {
+	
+}
 
 
 
