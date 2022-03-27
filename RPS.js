@@ -35,7 +35,15 @@ function generateComputerChoice() {
 	// function to show game Result
 function getResult() {
 	if (computerChoice === userChoice) {
-		result = 'you Draw'
+		result = 'you Draw!'
+	}
+
+	if (computerChoice === 'rock' && userChoice === 'paper') {
+		result = 'you win!'
+	}
+
+	if (computerChoice === 'rock' && userChoice === 'scissors') {
+		result = 'you lose!'
 	}
 }
 
