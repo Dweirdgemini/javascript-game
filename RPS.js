@@ -13,7 +13,7 @@ possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('cli
 	generateComputerChoice()
 }))
 
-
+	// function to Generate computer choice
 function generateComputerChoice() {
 	const randomNumber = Math.floor( Math.random() * 3) + 1 
 	if (randomNumber === 1) {
@@ -31,9 +31,11 @@ function generateComputerChoice() {
 	
 	computerChoiceDisplay.innerHTML = computerChoice
 }
-
+	// function to show game Result
 function getResult() {
-	
+	if (computerChoice === userChoice) {
+		result = 'you Draw'
+	}
 }
 
 
