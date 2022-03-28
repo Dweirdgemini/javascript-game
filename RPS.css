@@ -1,3 +1,18 @@
-.game {
-    text-align: justifys;
+
+.choice {
+    display:flexbox;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(75, 168, 52);
+    margin-left:35%;
+    margin-right:35%;
+    border-radius: 30px;
+}
+
+.button {
+    text-align: center;
+}
+
+.Cc {
+    color: blue;
 }
